@@ -1,0 +1,6 @@
+.gemini/
+.specs/
+.venv/
+.specify/
+instance/
+*.env
