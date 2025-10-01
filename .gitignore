@@ -1,5 +1,5 @@
 .gemini/
-.specs/
+specs/
 .venv/
 .specify/
 instance/
