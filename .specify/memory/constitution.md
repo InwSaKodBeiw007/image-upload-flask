@@ -1,50 +1,56 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!-- Sync Impact Report:
+Version change: None (initial creation) -> 1.0.0
+List of modified principles:
+- PRINCIPLE_1_NAME: None -> Code Quality
+- PRINCIPLE_2_NAME: None -> Testing Standards
+- PRINCIPLE_3_NAME: None -> User Experience Consistency
+- PRINCIPLE_4_NAME: None -> Performance Requirements
+- PRINCIPLE_5_NAME: None -> Simplicity & MVP First
+Added sections: None
+Removed sections: None
+Templates requiring updates:
+- .specify/templates/plan-template.md: ⚠ pending
+- .specify/templates/spec-template.md: ⚠ pending
+- .specify/templates/tasks-template.md: ⚠ pending
+- .specify/commands/analyze.toml: ⚠ pending
+- .specify/commands/clarify.toml: ⚠ pending
+- .specify/commands/constitution.toml: ⚠ pending
+- .specify/commands/implement.toml: ⚠ pending
+- .specify/commands/plan.toml: ⚠ pending
+- .specify/commands/specify.toml: ⚠ pending
+- .specify/commands/tasks.toml: ⚠ pending
+Follow-up TODOs: None
+-->
+# Image Upload Service Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Code Quality
+All code must adhere to established coding standards, style guides, and best practices to ensure readability, maintainability, and consistency.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Testing Standards
+Comprehensive unit, integration, and end-to-end tests must be implemented for all features and bug fixes to ensure reliability and prevent regressions.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. User Experience Consistency
+The user interface and experience must be consistent across all features, following established design guidelines and accessibility standards.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Performance Requirements
+All features must meet defined performance metrics, including response times, resource utilization, and scalability, to ensure a smooth user experience.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Simplicity & MVP First
+Prioritize building a Minimum Viable Product (MVP) to deliver core value quickly. Avoid over-engineering and unnecessary complexity; iterate and expand features incrementally.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## Development Guidelines
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+Adhere to the project's chosen technology stack and architectural patterns. All new dependencies must be approved and documented. Security best practices must be followed in all development phases.
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+## Workflow & Review
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+All code changes must go through a peer review process. Automated CI/CD pipelines must pass before merging. Documentation must be updated alongside code changes.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This constitution ensures clarity, consistency, and alignment between the AI agent and the human developer throughout the lifecycle of the project.
+Amendments to this constitution require documentation, approval, and a migration plan. All pull requests and code reviews must verify compliance with these principles.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-10-01 | **Last Amended**: 2025-10-01
